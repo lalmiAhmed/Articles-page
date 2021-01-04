@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap');
+
+
+*{
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    background-color: #ffffff;
+}
+
+.top-bar {
+    padding: 10px 20px;
+    border-bottom:1px solid rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    font-weight: 600;
+    align-items: center;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.nav-link {
+    margin: 10px 5px;
+    padding: 10px;
+    align-self: center;
+}
+
+.nav-link a {
+    text-decoration: none;
+    color: #000;
+}
+
+.nav-link-drop-down {
+    margin: 10px 0;
+   
+}
+
+.dropdown-toggle::after {
+    display: none;
+    border: none;
+    font: normal normal normal 12px/1 'Font Awesome 5 Free';
+    content: "\f078";
+    vertical-align: 0;
+  }
+
+.btn-drop-down {
+    margin: 0;
+}
+
+.login-btn-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.login-btn {
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.login {
+    width: 98px;
+    height: 45px;
+    border: 1px solid #a1a6b4;
+    border-radius: 30px;
+    text-transform: capitalize;
+    background-color: #fff;
+    color: #000;
+}
+
+.getStarted {
+    width: 130px;
+    height: 45px;
+    border: none;
+    border-radius: 30px;
+    background-color: #000000;
+    color: #fff;
+}
+
+
+/*styling of navigation list */
+
+.navigation-list-continer {
+    margin: 20px 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.navigation-list {
+    list-style: none;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+    font-weight: 600;
+}
+
+.navigation-list li {
+    margin: 20px 10px;
+}
+
+.pg-link {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #000;
+}
+
+.pg-link:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+.search-logo::after {
+    margin: 20px;
+    display: none;
+    border: none;
+    font: normal normal normal 14px/1 'Font Awesome 5 Free';
+    content: "\f078";
+    vertical-align: 0;
+}
+
+.search-logo {
+    font-size: 1.5rem;
+    margin: 20px;
+    margin-right: 30px;
+}
+
+/*the whole article container*/
+.whole-article-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+}
+
+
+/*styling the left side article*/
+
+.left-article-container {
+    margin-top: 30px;
+    margin-left: 20px;
+    max-width: 48%;
+}
+
+.big-title-1 {
+    font-size: 3rem;
+    font-weight: 900;
+    padding-left: 10px;
+}
+
+.main-article-image {
+    margin-left: 10px;
+    max-width: 566px;
+    max-height: 330px;
+}
+
+.big-title-2 {
+    margin: 10px 0;
+    padding-left: 10px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.main-article-description {
+    padding-left: 10px;
+    max-width: 550px;
+    margin: 20px 0;
+    font-size: 1.2rem;
+}
+
+.user {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    margin: 10px 0;
+
+}
+
+.user-pic {
+    margin: 5px;
+}
+
+.user-name {
+    font-size: 1.25rem;
+    text-transform: capitalize;
+}
+
+/*styling right article*/
+
+.right-article-container {
+    margin-left: 60px;
+    max-width: 45%;
+}
+
+.big-title-3 {
+    margin: 10px 0;
+    padding-left: 10px;
+    font-size: 1.9rem;
+    font-weight: 900;
+    text-transform: capitalize;    
+}
+
+.recent-articles {
+    margin-top: 60px;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.article-title {
+    margin: 0;
+    padding: 0;
+}
+
+.recent-article-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-content: center; */
+    align-items: flex-start;
+}
+
+.article-container {
+    max-width: 538px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.article-img {
+    margin-left: 0;
+    margin-right: 20px;
+}
+
+.article-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: flex-start;
+}
+
+
+
+/********************************************/
+/*Testing area*/
+/********************************************/
+
+
+
+footer {
+    margin: 0;
+    margin-top: 200px;
+    padding: 30px;
+    padding-bottom: 40px;
+    background-color: lightgrey;
+    font-weight: 1000;
+    text-align: center;
+    margin-bottom: 0;
+}

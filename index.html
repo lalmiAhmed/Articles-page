@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Articles page*</title>
+    <!--Bootstrap css-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/8f9fb1d95a.js" crossorigin="anonymous"></script>
+
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="top-bar">
+        <div class="nav-container">
+            <!-- Drop-down form bootstrap 4 -->
+            <div class="btn-group nav-link nav-link-drop-down">
+                <span><a href="#">Products</a></span>
+                <button type="button" class="btn dropdown-toggle dropdown-toggle-split btn-drop-down" id="dropdownMenuReference" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-reference="parent">
+                  <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuReference">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Separated link</a>
+                </div>
+              </div>
+
+            <span class="nav-link"><a href="#">Pricing</a></span>
+
+            <!-- Drop-down form bootstrap 4 -->
+            <div class="btn-group nav-link nav-link-drop-down">
+              <span><a href="#">Use Cases</a></span>
+              <button type="button" class="btn dropdown-toggle dropdown-toggle-split btn-drop-down" id="dropdownMenuReference" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-reference="parent">
+                <i class="fas fa-chevron-down"></i>
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuReference">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Separated link</a>
+              </div>
+            </div>
+
+            <span class="nav-link"><a href="#">Blog</a></span>
+        </div>
+        <div class="login-btn-container">
+            <button class="login-btn login">Log in</buttdon>
+            <button class="login-btn getStarted">Get started</button>
+        </div>
+    </div>
+    <!-- navigation-list-continer starts here  -->
+    <div class="navigation-list-continer">
+      <div class="right-links">
+        <ul class="navigation-list">
+          <li><a href="#" class="pg-link">Project</a></li>
+          <li><a href="#" class="pg-link">Remot</a></li>
+          <li><a href="#" class="pg-link">Teamwork</a></li>
+          <li><a href="#" class="pg-link">Productivity</a></li>
+          <li><a href="#" class="pg-link">Marketing</a></li>
+        </ul>
+      </div>
+      <div class="search-logo"><i class="fas fa-search"></i></div>
+    </div>
+
+    <!-- container of both right and left article -->
+
+    <div class="whole-article-container">
+
+      <!-- left side article containter -->
+    
+      <div class="left-article-container">
+        <h1 class="big-title-1">Productivity</h1>
+        <img src="images/main-article-img.png" alt="article-image" class="main-article-image">
+        <h2 class="big-title-2">little things do make a difference</h2>
+        <p class="main-article-description">Why do you want to moticate yourself? Actually, just answering that question fully can be one of the better ways to get your daily motivation.</p>
+        <div class="user">
+          <img src="images/user-1.png" alt="user-pic" class="user-pic">
+          <span class="user-name">kathryn shelton</span>
+        </div>
+      </div>
+    
+
+      <!-- right side article containter -->
+      <div class="right-article-container">
+        <h3 class="big-title-3 recent-articles">Recent articles</h3>
+        <div class="recent-article-container">
+          <div class="article-container">
+            <img src="images/article-1.png" alt="article-pic" class="article-img">
+            <div class="article-info">
+              <h3 class="big-title-3 article-title">common symbol and their meanings</h3>
+              <div class="user">
+                <img src="images/user-2.png" alt="user-pic" class="user-pic">
+                <span class="user-name">susie russell</span>
+              </div>
+            </div>
+          </div>
+          <div class="article-container">
+            <img src="images/article-2.png" alt="article-pic" class="article-img">
+            <div class="article-info">
+              <h3 class="big-title-3 article-title">success steps for your business</h3>
+              <div class="user">
+                <img src="images/user-3.png" alt="user-pic" class="user-pic">
+                <span class="user-name">connor parsons</span>
+              </div>
+            </div>
+          </div>
+          <div class="article-container">
+            <img src="images/article-3.png" alt="article-pic" class="article-img">
+            <div class="article-info">
+              <h3 class="big-title-3 article-title">the strength of your belief</h3>
+              <div class="user">
+                <img src="images/user-4.png" alt="user-pic" class="user-pic">
+                <span class="user-name">jonathan yates</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    
+    
+    <footer>
+        <p>it's just simple footer</p>
+    </footer>
+
+    <!--Bootstrap JS-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
